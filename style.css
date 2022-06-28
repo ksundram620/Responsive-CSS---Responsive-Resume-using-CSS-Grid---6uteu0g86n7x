@@ -73,7 +73,7 @@
   }
   .progress-bar {
     height: 4px;
-    border: 1px rgb(102, 225, 68) solid;
+    border: 1px white solid;
     background-color: azure;
   }
   
