@@ -7,3 +7,152 @@
 }
 
 /* Write CSS code below */
+.main-content{
+    width: 90%;
+   min-height: 1000px;
+    margin: 20px auto;
+    padding: 0px;
+    display: grid;
+
+    grid-template-columns: 300px 700px;
+} 
+.left-section{
+    width: 300px;
+    background-color: #242531;
+    grid-column:span 1;
+}
+.right-section{
+    width:700px;
+    background-color: #F7F7F7;
+    grid-column:span 1/span 2;
+}
+.profile-details{
+    width: 268px;
+    height: 283.02px;
+    background-color: #242531;
+    margin: auto;
+}
+.profile{
+    width: 60%;
+    height: 150.42px;
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+    width: 60%;
+    padding: 1rem;
+    border: 5px solid white;
+    border-radius: 30%;
+    background-image: url(myimg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1rem;
+}
+.name{
+    color: #F7F7F7;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02px;
+    padding: 0.8rem;
+    
+}
+.designation{
+    font-size: 1rem;
+    color: #aae5f0;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+}
+.description{
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+}
+.contact-item{
+    width: 268px;
+    height: 129px;
+    margin: auto;
+    margin-top:60px;
+}
+.socical-media{
+    width: 268px;
+    height: 27px;
+}
+.icon{
+    width: 20px;
+    height: 27px;
+}
+.media li,a,i{
+    display: inline;
+    padding: 5px;
+}
+span{
+    color: white;
+}
+.skill-content{
+    width: 252px;
+    height: 352px;
+    margin: auto;
+}
+.skill-content h3{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.progress-line{
+    position: relative;
+    height: 7px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+   margin-top: 8px;
+   margin-bottom: 8px;
+}
+.progress-line #java{
+    height: 100%;
+    width: 80%;
+    background-color: rgb(119, 237, 83);
+    position: absolute;
+    border-radius: 10px;
+}
+.progress-line #ds{
+    height: 100%;
+    width: 70%;
+    background-color: rgb(119, 237, 83);
+    position: absolute;
+    border-radius: 10px;
+}
+.progress-line #html{
+    height: 100%;
+    width: 80%;
+    background-color: rgb(119, 237, 83);
+    position: absolute;
+    border-radius: 10px;
+}
+.progress-line #css{
+    height: 100%;
+    width: 65%;
+    background-color: rgb(119, 237, 83);
+    position: absolute;
+    border-radius: 10px;
+}
+.progress-line #js{
+    height: 100%;
+    width: 30%;
+    background-color: rgb(119, 237, 83);
+    position: absolute;
+    border-radius: 10px;
+}
+.progress-line #react{
+    height: 100%;
+    width: 10%;
+    background-color: rgb(119, 237, 83);
+    position: absolute;
+    border-radius: 10px;
+}
+.media li a{
+    color:#4ad9d2 ;
+}
